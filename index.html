@@ -44,7 +44,7 @@
                     <div class="item-list my-5">
                         <!-- single item -->
                         <div v-for="item in items" class="item my-3">
-                            <h5 v-show="!item.editMode" :id="item.id" :contenteditable="item.editMode"
+                            <h5 v-show="!item.editMode" :id="item.id"
                                 class="item-name text-capitalize" :class="{completed:item.isCompleted}">{{item.task}}
                             </h5>
                             <div class="item-icons">
